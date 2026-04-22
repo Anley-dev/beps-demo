@@ -4,6 +4,9 @@
     --gold: #d4af37;
     --vip-black: #0a0a0c;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Inter', sans-serif;
@@ -26,6 +29,10 @@ body {
 }
 .text-gold {
     color: #d4af37;
+}
+.btn-gold-glow:hover {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+    transform: scale(1.02);
 }
 
 /* Make font-serif look more like a luxury brand */
