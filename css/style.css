@@ -23,3 +23,15 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* Animation Classes */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
