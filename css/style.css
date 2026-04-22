@@ -24,6 +24,14 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.text-gold {
+    color: #d4af37;
+}
+
+/* Make font-serif look more like a luxury brand */
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}
 
 .glass-card {
     background: rgba(255, 255, 255, 0.03);
